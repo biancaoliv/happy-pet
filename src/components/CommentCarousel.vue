@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="hidden">
     <section class="container mx-auto py-8 pt-24 px-4 sm:px-6 md:px-12">
       <header
         class="container text-center text-3xl sm:text-4xl md:text-5xl font-bold mx-auto"
@@ -14,7 +14,7 @@
     </section>
     <section class="w-full max-w-4xl mx-auto p-6 bg-white rounded-lg flex flex-col lg:flex-row items-center gap-10">
 
-      <div class="lg:w-2/2 w-md">
+      <div class="lg:w-full w-md">
         <img
           src="../assets/human.jpg"
           alt="a man sitting with a dog"
