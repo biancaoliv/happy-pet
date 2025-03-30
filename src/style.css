@@ -1,13 +1,4 @@
 @import "tailwindcss";
 html {
-    scroll-behavior: smooth;
-  }
-
-  body {
-    overflow-x: hidden; 
-  }
-
-  img {
-    max-width: 100%;
-    height: auto;
+    scroll-behavior: smooth   
   }

@@ -14,6 +14,7 @@
         hoverColor="hover:bg-purple-400"
         textColor="text-purple-500"
         fontBold="font-medium"
+        class="hover:text-white"
       >
         <div class="flex items-center gap-2">
           <span>Contact Us</span>

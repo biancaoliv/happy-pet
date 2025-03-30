@@ -1,5 +1,5 @@
 <template>
-  <main class="hidden">
+  <main >
     <section class="container mx-auto py-8 pt-24 px-4 sm:px-6 md:px-12">
       <header
         class="container text-center text-3xl sm:text-4xl md:text-5xl font-bold mx-auto"
@@ -14,15 +14,15 @@
     </section>
     <section class="w-full max-w-4xl mx-auto p-6 bg-white rounded-lg flex flex-col lg:flex-row items-center gap-10">
 
-      <div class="lg:w-full w-md">
+      <div>
         <img
           src="../assets/human.jpg"
           alt="a man sitting with a dog"
-          class="w-full rounded-lg"
+          class="w-80 h-auto md:w-150 xl:w-2xl rounded-lg"
         />
       </div>
 
-      <div class="w-1/2 ">
+      <div class="w-3xs md:w-md">
         <div class="flex items-center gap-4 pt-4">
           <img
             :src="comments[currentIndex].img"

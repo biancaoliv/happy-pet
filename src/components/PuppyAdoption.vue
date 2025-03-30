@@ -1,8 +1,8 @@
 <template>
   <main class="container mx-auto flex flex-col lg:flex-row items-center p-6 ">
     <section class="flex flex-col md:flex-row lg:flex-row md:gap-8 gap-y-4 flex-2 ">
-      <div class="w-full p-4 bg-pink-300 rounded-lg">
-        <div class="flex flex-col items-center py-8">
+      <div class="w-full p-4 bg-pink-300 rounded-lg   duration-300 ease-in hover:scale-110">
+        <div class="flex flex-col items-center py-8 ">
           <img
             class="w-42 h-auto mb-3"
             src="../assets/hamster.png"
@@ -16,7 +16,7 @@
           />
         </div>
       </div>
-      <div class="w-full  p-4 bg-purple-300 rounded-lg">
+      <div class="w-full  p-4 bg-purple-300 rounded-lg duration-300 ease-in hover:scale-110">
         <div class="flex flex-col items-center py-8">
           <img
             class="w-42 h-auto mb-3"
@@ -31,7 +31,7 @@
           />
         </div>
       </div>
-      <div class="w-full  p-4 bg-blue-200 rounded-lg">
+      <div class="w-full  p-4 bg-blue-200 rounded-lg duration-300 ease-in hover:scale-110">
         <div class="flex flex-col items-center py-8">
           <img
             class="w-42 h-auto mb-3"

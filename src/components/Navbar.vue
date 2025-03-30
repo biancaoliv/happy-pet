@@ -70,12 +70,12 @@
           >
         </li>
         <li>
-          <router-link to="/alltet" class="text-black hover:text-purple-400"
-            >All Tet</router-link
+          <router-link to="/" class="text-black hover:text-purple-400"
+            >All Pet</router-link
           >
         </li>
         <li>
-          <router-link to="/contact" class="text-black hover:text-purple-400"
+          <router-link to="/" class="text-black hover:text-purple-400"
             >Contact</router-link
           >
         </li>
