@@ -1,6 +1,6 @@
 <template>
   <main id="hero">
-    <section class="py-8 pt-36">
+    <section class="py-8 pt-26">
       <div class="container mx-auto px-4 text-center">
         <h1 class="text-5xl md:text-6xl font-bold max-w-2xl mx-auto">
           The best place to get your favorite pet without any doubt

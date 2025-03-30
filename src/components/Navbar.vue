@@ -6,11 +6,11 @@
       </h1>
       <ul class="hidden md:flex space-x-6">
         <li>
-          <router-link
+          <a
             to="/"
             @click.native="scrollToHero"
             class="text-black hover:text-purple-400"
-            >Home</router-link
+            >Home</a
           >
         </li>
         <li>
@@ -22,8 +22,8 @@
           <a href="#allpet" class="text-black hover:text-purple-400">All Pet</a>
         </li>
         <li>
-          <router-link to="/contact" class="text-black hover:text-purple-400"
-            >Contact</router-link
+          <a to="/contact" class="text-black hover:text-purple-400"
+            >Contact</a
           >
         </li>
       </ul>
@@ -60,23 +60,26 @@
     >
       <ul class="space-y-6">
         <li>
-          <router-link to="/" class="text-black hover:text-purple-400"
-            >Home</router-link
+          <a
+            to="/"
+            @click.native="scrollToHero"
+         class="text-black hover:text-purple-400"
+            >Home</a
           >
         </li>
         <li>
-          <router-link to="/collection" class="text-black hover:text-purple-400"
-            >Collection</router-link
+          <a href="#colllection" class="text-black hover:text-purple-400"
+            >Collection</a
           >
         </li>
         <li>
-          <router-link to="/" class="text-black hover:text-purple-400"
-            >All Pet</router-link
+          <a href="#allpet" class="text-black hover:text-purple-400"
+            >All Pet</a
           >
         </li>
         <li>
-          <router-link to="/" class="text-black hover:text-purple-400"
-            >Contact</router-link
+          <a to="/" class="text-black hover:text-purple-400"
+            >Contact</a
           >
         </li>
       </ul>
@@ -87,14 +90,12 @@
 <script setup>
 import { ref } from "vue";
 import BaseButton from "./BaseButton.vue";
-import { useRouter } from "vue-router";
 
 const isMenuOpen = ref(false);
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value;
 };
 const scrollToHero = () => {
-  // Rolar suavemente até o topo da HeroPage
   const heroSection = document.getElementById("hero");
   if (heroSection) {
     window.scrollTo({

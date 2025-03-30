@@ -1,6 +1,6 @@
 <template>
   <main id="colllection">
-    <section class="container mx-auto py-8 pt-18 px-4 sm:px-6 md:px-12">
+    <section class="container mx-auto py-8 pt-12 px-4 sm:px-6 md:px-12">
       <header
         class="container text-center text-3xl sm:text-4xl md:text-5xl font-bold mx-auto"
       >
@@ -15,7 +15,7 @@
     </section>
 
     <section
-      class="container mx-auto grid grid-cols-1 md:grid-cols-2 py-12 lg:grid-cols-4 gap-6 md:px-16 lg:px-4 xl:px-[120px] 2xl:px-[100px]"
+      class="container mx-auto grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4 gap-6 md:px-16 lg:px-4 xl:px-[120px] 2xl:px-[100px]"
     >
       <article
         class="flex flex-col items-center text-center px-4 py-6 sm:px-8 rounded-t-lg hover:text-white hover:bg-purple-400 duration-300 ease-in hover:scale-110"
