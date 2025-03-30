@@ -1,8 +1,8 @@
 <template>
-  <main class="container mx-auto flex flex-col lg:flex-row items-center p-6 ">
-    <section class="flex flex-col md:flex-row lg:flex-row md:gap-8 gap-y-4 flex-2 ">
+  <main class="container mx-auto flex flex-col lg:flex-row items-center py-8 ">
+    <section class="flex flex-col md:flex-row lg:flex-row md:gap-8 gap-y-4 flex-2 py-10">
       <div class="w-full p-4 bg-pink-300 rounded-lg   duration-300 ease-in hover:scale-110">
-        <div class="flex flex-col items-center py-8 ">
+        <div class="flex flex-col items-center  ">
           <img
             class="w-42 h-auto mb-3"
             src="../assets/hamster.png"
@@ -17,7 +17,7 @@
         </div>
       </div>
       <div class="w-full  p-4 bg-purple-300 rounded-lg duration-300 ease-in hover:scale-110">
-        <div class="flex flex-col items-center py-8">
+        <div class="flex flex-col items-center ">
           <img
             class="w-42 h-auto mb-3"
             src="../assets/cat.png"
@@ -32,7 +32,7 @@
         </div>
       </div>
       <div class="w-full  p-4 bg-blue-200 rounded-lg duration-300 ease-in hover:scale-110">
-        <div class="flex flex-col items-center py-8">
+        <div class="flex flex-col items-center ">
           <img
             class="w-42 h-auto mb-3"
             src="../assets/dog-puppy.png"
@@ -48,8 +48,8 @@
       </div>
     </section>
 
-    <section class="text-center lg:text-left max-w-md order-first lg:order-none p-12 ">
-      <h1 class="text-4xl font-bold text-gray-800">Find Your Puppy</h1>
+    <section class="text-center lg:text-left max-w-md order-first lg:order-none  px-10">
+      <h1 class="text-4xl font-bold">Find Your Puppy</h1>
       <p class="text-gray-600 mt-2">
         We offer a wide variety of adorable dogs ready to find loving homes. If you're looking for a loyal and fun-loving friend, this is the place for you!
       </p>
@@ -63,7 +63,7 @@
           <div class="flex items-center gap-2">View Detail</div>
         </BaseButton>
         <button
-          class="px-6 py-2 text-gray-800 rounded-lg hover:bg-gray-200 transition"
+          class="px-6 py-2  rounded-lg hover:bg-gray-200 transition"
         >
           Learn More
         </button>

@@ -1,6 +1,6 @@
 <template>
   <main id="allpet">
-    <section class="container mx-auto py-8 pt-18 px-4 sm:px-6 md:px-12">
+    <section class="container mx-auto py-8 pt-4 px-4 sm:px-6 md:px-12">
       <header
         class="container text-center text-3xl sm:text-4xl md:text-5xl font-bold mx-auto"
       >
